@@ -31,6 +31,7 @@ function getRandomQuote($array) {
 
     $getQuote = $array[rand(0, count($array) - 1)];
     return $getQuote;
+
 }
 
 //Created printQuote function that passes into getRandomQuote function and stored in '$ranQuote' variable
