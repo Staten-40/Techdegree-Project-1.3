@@ -10,13 +10,14 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
 
-    <!--Random Color Generator:  Randomly generates any background color on the hexidecimal color wheel-->
-    <!--Created $color variable using $red, $blue, $green variables as argument.-->
+    <!--Random Color Generator:  Randomly generates any background color on the hexadecimal color wheel-->
+    <!--modified code from http://thisinterestsme.com/random-rgb-hex-color-php/ -->
     <?php
     $red = rand(0, 255);
     $blue = rand(0, 255);
     $green = rand(0, 255);
     $color = "rgb($red, $blue, $green);";
+
     ?>
 
     <!--With <style> tag, used $color to output random color to the screen -->
